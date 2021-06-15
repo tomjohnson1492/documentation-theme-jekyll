@@ -1,0 +1,102 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: CanAirIO
+  version: 0.3.2
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+
+    - title: Building a device
+      url: /index.html#building-a-device
+      output: web, pdf
+
+    - title: Firmware upload
+      url: /index.html#firmware-upload
+      output: web
+
+  - title: User guide
+    output: web, pdf
+
+    folderitems:
+
+    - title: CanAirIO device
+      url: /user_manual_es.html
+      output: web, pdf
+
+    - title: Mobile station mode
+      url: /user_manual_es.html
+      output: web, pdf
+
+    - title: Fixed station mode
+      url: /user_manual_es.html
+      output: web, pdf
+
+    - title: Android app guide
+      url: /user_manual_es.html
+      output: web, pdf
+
+    - title: Publication
+      url: /user_manual_es.html
+      output: web, pdf
+
+  - title: API
+    output: web, pdf
+
+    folderitems:
+
+    - title: Mobile station
+      url: /mobile_api_en.html
+      output: web, pdf
+
+    - title: Fixed station
+      url: /fixed_stations_api_en.html
+      output: web, pdf
+
+  - title: Hardware
+    output: web, pdf
+
+    folderitems:
+
+    - title: CO2 sensors
+      url: /co2_comparative.html
+      output: web, pdf 
+
+  - title: Firmware
+    output: web, pdf
+
+    folderitems:
+    - title: Bluetooth GATT protocol
+      url: /firmware_protocol.html
+      output: web, pdf
+
+    - title: Firmware debugging
+      url: /firmware_debugging.html
+      output: web, pdf
+
+  - title: Community
+    output: web, pdf
+
+    folderitems:
+
+    - title: Respiraton 2021
+      url: /Respiraton2021.html
+      output: web, pdf
+
+
